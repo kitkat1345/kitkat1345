@@ -7,20 +7,42 @@ body {
 .main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     background-color: #d6e8f7;
     border-radius: 10px;
 }
 
 h1 {
     color: #333;
+	margin-top: 0; /* Remove top margin */
+    margin-bottom: 10px; /* Add a small bottom margin */
+}
+
+.instructions {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.instructions p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 #game-area {
     display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	width: 100%;
 	height: 100vh;
 }
@@ -28,7 +50,7 @@ h1 {
 img {
     max-width: 45%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #score {
@@ -38,10 +60,12 @@ img {
 
 #timer {
 	font-size: 20px;
-	color: #ff6868
-	background-color: #ffbb64
-	padding: 10px;
+	color: #ff6868;
+	background-color: #ffbb64;
+	padding: 5px;
 	border-radius: 5px;
+	width: 70px;
+	margin: 0 auto;
 }
 
 #new-game-btn {
