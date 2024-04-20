@@ -7,17 +7,24 @@
     <link rel="stylesheet" href="SpotItGame.css">
 </head>
 <body>
-        <h1>6 Differences To Find </h1>
+    <h1>6 Differences To Find </h1>
+	<div class="instructions">
+		<h2>Instructions:</h2>
+		<p>Welcome to Spot It! You have to find 6 differences between the two images below. Click on the differences on the right hand picture to score points. You have 60 seconds to find them all. Good luck!</p>
+	</div>
     <div class="main">
         <div id="game-area">
             <!-- Images for spot the difference game -->
-            <img src="easy1.png"/>
-            <img src="easy2.png"/>
+            <img src="easy1.png" alt="Image 1"/>
+            <img src="easy2.png" alt="Image 2"/>
         </div>
         <div id="score">Score: <span id="score-value">0</span></div>
 		<div id="timer">1:00</div>
         <button id="new-game-btn">New Game</button>
     </div>
+	<footer>
+		<p>&copy; 2024 Spot It Game. All rights reserved.</p>
+	</footer>
     <script src="SpotItGame.js"></script>
 </body>
 </html>
