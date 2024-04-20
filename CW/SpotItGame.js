@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 foundDiffs[i] = true;
 				if (score === 60) {
                     alert("Well done! You've found all differences. Click OK to return to the homepage.");
-					window.location.href = "homepage.html";
+					window.location.href = "https://kitkat1345.github.io/CW/index.html";
                 }
                 break;
             }
@@ -53,7 +53,7 @@ function countdown() {
             setTimeout(tick, 1000);
         } else {
             alert("Game over. Give it another try. Click OK to return to the homepage.");
-			window.location.href = "homepage.html";
+			window.location.href = "https://kitkat1345.github.io/CW/index.html";
         }
     }
     tick();
@@ -65,5 +65,5 @@ countdown();
 
 // Redirects to the homepage
 function redirectToHomepage() {
-    window.location.href = "homepage.html";
+    window.location.href = "https://kitkat1345.github.io/CW/index.html";
 }
