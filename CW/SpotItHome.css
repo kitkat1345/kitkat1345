@@ -2,6 +2,9 @@ body {
     font-family: "Courier New", monospace;
     background-color: #fof3ff;
     text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -32,6 +35,9 @@ h1, h2 {
 
 .buttons {
 	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	gap: 1px;
 }
 
 button {
@@ -56,4 +62,6 @@ footer {
 	padding: 10px;
 	text-align: center;
 	position: absolute;
+	bottom: 0;
+	width: 100%
 }
