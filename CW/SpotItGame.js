@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to handle click event on images
     function handleClick(event) {
         const clickX = event.offsetX;
-		const clickY = event.offsetY;
+	const clickY = event.offsetY;
         const knownCoords = [
 			{x: 78, y: 33 }, // Sun
 			{x: 313, y: 42 }, // Kite
@@ -18,21 +18,22 @@ document.addEventListener('DOMContentLoaded', function() {
 			{x: 97, y: 267 }, // Icecream
 			{x: 145, y: 137 }, // Boat
 			{x: 298, y: 169 } // Wave
-		];
+	];
 		
-		for (let i = 0; i < knownCoords.length; i++) {
+	for (let i = 0; i < knownCoords.length; i++) {
             const coords = knownCoords[i];
             if (!foundDiffs[i] && Math.abs(clickX - coords.x) < 10 && Math.abs(clickY - coords.y) < 10) {
                 score += 10;
                 scoreDisplay.textContent = score;
                 foundDiffs[i] = true;
-				if (score === 60) {
-                    alert("Well done! You've found all differences. Click OK to return to the homepage.");
-					window.location.href = "https://kitkat1345.github.io/CW/index.html";
-                }
                 break;
             }
         }
+	// Check if all differences are found
+	if (foundDiffs.every(diff => diff)) {
+		alert("Well done! You've found all differences. Click OK to return to the homepage.");
+		window.location.href = "https://kitkat1345.github.io/CW/index.html";
+	}
     }
 
     // Event listener for image clicks
