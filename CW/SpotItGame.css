@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d6e8f7;
+    background-color: #f7eedd;
     text-align: center;
 }
 
@@ -8,32 +8,32 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
-    background-color: #d6e8f7;
+    background-color: #f7eedd;
     border-radius: 10px;
 }
 
 h1 {
-    color: #333;
-	margin-top: 0; /* Remove top margin */
-    margin-bottom: 10px; /* Add a small bottom margin */
+    color: #008dda;
+	margin-top: 0;
+    margin-bottom: 10px; 
 }
 
 .instructions {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ace2e1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .instructions h2 {
-    color: #333;
+    color: #008dda;
     font-size: 24px;
 }
 
 .instructions p {
-    color: #555;
+    color: #008dda;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -56,23 +56,20 @@ img {
 #score {
     font-size: 18px;
     margin-bottom: 10px;
+	color: #008dda;
 }
 
 #timer {
 	font-size: 20px;
-	color: #ff6868;
-	background-color: #ffbb64;
-	padding: 5px;
-	border-radius: 5px;
-	width: 70px;
-	margin: 0 auto;
+	color: #008dda;
+    margin-bottom: 10px;
 }
 
 #new-game-btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ace2e1;
+    color: #008dda;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -80,5 +77,5 @@ img {
 }
 
 #new-game-btn:hover {
-    background-color: #0056b3;
+    background-color: #41c9e2;
 }
