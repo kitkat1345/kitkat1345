@@ -62,7 +62,7 @@ function countdown() {
 	        } else {
 			// If time runs out display message and redirect to homepage
 	            	alert("Game over. Give it another try. Click OK to return to the homepage.");
-			window.location.href = "SpotItHome.html";
+			window.location.href = "https://kitkat1345.github.io/CW/index.html";
 		}
     	}
     	tick(); // start the countdown
@@ -73,5 +73,5 @@ countdown();
 
 // Redirects to the homepage
 function redirectToHomepage() {
-    window.location.href = "SpotItHome.html";
+    window.location.href = "https://kitkat1345.github.io/CW/index.html";
 }
